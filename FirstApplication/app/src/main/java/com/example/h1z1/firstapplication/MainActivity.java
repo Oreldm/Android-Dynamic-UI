@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
                 RelativeLayout.LayoutParams.WRAP_CONTENT,
                 RelativeLayout.LayoutParams.WRAP_CONTENT
-        ); 
+        );
 
         buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
         buttonDetails.addRule(RelativeLayout.CENTER_VERTICAL);
 
         Button redButton = new Button(this);
-        redButton.setText("Click Me");
+        redButton.setText("Click Me!");
         redButton.setBackgroundColor(Color.RED);
 
         layout.addView(redButton, buttonDetails);
